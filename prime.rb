@@ -6,12 +6,12 @@ def prime?(num)
   end
   for x in 2...num
   if num%x == 0 
-    flag = false 
-    return flag
+    
+    return true
  end
 
 end
- 
+ return false
 end
 
   
