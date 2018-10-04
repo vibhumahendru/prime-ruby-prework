@@ -7,10 +7,11 @@ def prime?(num)
   for x in 2...num
   if num%x == 0 
     flag = false 
+    return flag
  end
 
 end
- return flag
+ 
 end
 
   
